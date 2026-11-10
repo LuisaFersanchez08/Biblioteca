@@ -1,4 +1,7 @@
 package Biblioteca;
 
-public class Catalogable {
+
+
+public interface Catalogable {
+    String getCodigo();
 }
