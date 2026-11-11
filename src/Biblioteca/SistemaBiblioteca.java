@@ -61,7 +61,7 @@ public class SistemaBiblioteca {
             return null;
         }
 
-        return usuarios.remove(0);
+        return usuarios.removeFirst();
     }
 
     Set<String> miembros = new HashSet<>();
